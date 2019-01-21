@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E75400488C7BC56970FCECB /* Pods_GasApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C4FD36AF534DDE6863F5EFB /* Pods_GasApp.framework */; };
+		5C17B1B1C45C9091255C8D6E /* Pods_GasAppUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DCA71A61ADD2DF90E28EE647 /* Pods_GasAppUITests.framework */; };
+		78585E1EBF14E470B984AC4A /* Pods_GasAppTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B6D4C17A13C0378139917DB /* Pods_GasAppTests.framework */; };
+		CE799F1721EA259F0010F67C /* images-3.png in Resources */ = {isa = PBXBuildFile; fileRef = CE799F1421EA259E0010F67C /* images-3.png */; };
+		CE799F1821EA259F0010F67C /* images.png in Resources */ = {isa = PBXBuildFile; fileRef = CE799F1521EA259E0010F67C /* images.png */; };
+		CE799F1921EA259F0010F67C /* images-2.png in Resources */ = {isa = PBXBuildFile; fileRef = CE799F1621EA259F0010F67C /* images-2.png */; };
+		CE799F1B21EA26550010F67C /* ViewControllerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE799F1A21EA26550010F67C /* ViewControllerTableViewCell.swift */; };
 		CEB7943F21E65DA80067C1AF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7943E21E65DA80067C1AF /* AppDelegate.swift */; };
 		CEB7944121E65DA80067C1AF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7944021E65DA80067C1AF /* ViewController.swift */; };
 		CEB7944421E65DA80067C1AF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7944221E65DA80067C1AF /* Main.storyboard */; };
@@ -14,6 +21,9 @@
 		CEB7944921E65DA80067C1AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEB7944721E65DA80067C1AF /* LaunchScreen.storyboard */; };
 		CEB7945421E65DA90067C1AF /* GasAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7945321E65DA90067C1AF /* GasAppTests.swift */; };
 		CEB7945F21E65DA90067C1AF /* GasAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7945E21E65DA90067C1AF /* GasAppUITests.swift */; };
+		CEB7946D21E6679E0067C1AF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7946C21E6679E0067C1AF /* SignInViewController.swift */; };
+		CEB7946F21E672270067C1AF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7946E21E672270067C1AF /* RegisterViewController.swift */; };
+		CEB7947121E7A9F60067C1AF /* OrderGasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7947021E7A9F60067C1AF /* OrderGasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +44,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		15F1D67AA01291CFAA7EB713 /* Pods-GasAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasAppTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GasAppTests/Pods-GasAppTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AA36D05E828881BD9A58815 /* Pods-GasApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GasApp/Pods-GasApp.debug.xcconfig"; sourceTree = "<group>"; };
+		37B75E370DDC935765B030E9 /* Pods-GasApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-GasApp/Pods-GasApp.release.xcconfig"; sourceTree = "<group>"; };
+		3C4FD36AF534DDE6863F5EFB /* Pods_GasApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B6D4C17A13C0378139917DB /* Pods_GasAppTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasAppTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A130F76F1A590D6557A7CF /* Pods-GasAppTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasAppTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GasAppTests/Pods-GasAppTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BC36995B2315F5D3D4F0AEA9 /* Pods-GasAppUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasAppUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GasAppUITests/Pods-GasAppUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE799F1421EA259E0010F67C /* images-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images-3.png"; sourceTree = "<group>"; };
+		CE799F1521EA259E0010F67C /* images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = images.png; sourceTree = "<group>"; };
+		CE799F1621EA259F0010F67C /* images-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "images-2.png"; sourceTree = "<group>"; };
+		CE799F1A21EA26550010F67C /* ViewControllerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerTableViewCell.swift; sourceTree = "<group>"; };
 		CEB7943B21E65DA80067C1AF /* GasApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GasApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB7943E21E65DA80067C1AF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEB7944021E65DA80067C1AF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +68,11 @@
 		CEB7945A21E65DA90067C1AF /* GasAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GasAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEB7945E21E65DA90067C1AF /* GasAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GasAppUITests.swift; sourceTree = "<group>"; };
 		CEB7946021E65DA90067C1AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEB7946C21E6679E0067C1AF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		CEB7946E21E672270067C1AF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
+		CEB7947021E7A9F60067C1AF /* OrderGasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderGasViewController.swift; sourceTree = "<group>"; };
+		DCA71A61ADD2DF90E28EE647 /* Pods_GasAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6F3B393421FE6E28C84F131 /* Pods-GasAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GasAppUITests/Pods-GasAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1E75400488C7BC56970FCECB /* Pods_GasApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +88,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78585E1EBF14E470B984AC4A /* Pods_GasAppTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +96,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C17B1B1C45C9091255C8D6E /* Pods_GasAppUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2CBBD7FE44ABBDE0771068D2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AA36D05E828881BD9A58815 /* Pods-GasApp.debug.xcconfig */,
+				37B75E370DDC935765B030E9 /* Pods-GasApp.release.xcconfig */,
+				75A130F76F1A590D6557A7CF /* Pods-GasAppTests.debug.xcconfig */,
+				15F1D67AA01291CFAA7EB713 /* Pods-GasAppTests.release.xcconfig */,
+				F6F3B393421FE6E28C84F131 /* Pods-GasAppUITests.debug.xcconfig */,
+				BC36995B2315F5D3D4F0AEA9 /* Pods-GasAppUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A8955FFA0574C9CF295D6697 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C4FD36AF534DDE6863F5EFB /* Pods_GasApp.framework */,
+				5B6D4C17A13C0378139917DB /* Pods_GasAppTests.framework */,
+				DCA71A61ADD2DF90E28EE647 /* Pods_GasAppUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CEB7943221E65DA80067C1AF = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +133,8 @@
 				CEB7945221E65DA90067C1AF /* GasAppTests */,
 				CEB7945D21E65DA90067C1AF /* GasAppUITests */,
 				CEB7943C21E65DA80067C1AF /* Products */,
+				2CBBD7FE44ABBDE0771068D2 /* Pods */,
+				A8955FFA0574C9CF295D6697 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,11 +151,18 @@
 		CEB7943D21E65DA80067C1AF /* GasApp */ = {
 			isa = PBXGroup;
 			children = (
+				CEB7946C21E6679E0067C1AF /* SignInViewController.swift */,
+				CEB7946E21E672270067C1AF /* RegisterViewController.swift */,
+				CEB7947021E7A9F60067C1AF /* OrderGasViewController.swift */,
 				CEB7943E21E65DA80067C1AF /* AppDelegate.swift */,
 				CEB7944021E65DA80067C1AF /* ViewController.swift */,
+				CE799F1A21EA26550010F67C /* ViewControllerTableViewCell.swift */,
 				CEB7944221E65DA80067C1AF /* Main.storyboard */,
 				CEB7944521E65DA80067C1AF /* Assets.xcassets */,
 				CEB7944721E65DA80067C1AF /* LaunchScreen.storyboard */,
+				CE799F1621EA259F0010F67C /* images-2.png */,
+				CE799F1421EA259E0010F67C /* images-3.png */,
+				CE799F1521EA259E0010F67C /* images.png */,
 				CEB7944A21E65DA90067C1AF /* Info.plist */,
 			);
 			path = GasApp;
@@ -132,9 +193,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB7946321E65DA90067C1AF /* Build configuration list for PBXNativeTarget "GasApp" */;
 			buildPhases = (
+				F279A9945996F852876DF501 /* [CP] Check Pods Manifest.lock */,
 				CEB7943721E65DA80067C1AF /* Sources */,
 				CEB7943821E65DA80067C1AF /* Frameworks */,
 				CEB7943921E65DA80067C1AF /* Resources */,
+				BDC605A22E45160C83915EE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -149,6 +212,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB7946621E65DA90067C1AF /* Build configuration list for PBXNativeTarget "GasAppTests" */;
 			buildPhases = (
+				20853DDCCCD059E394D3BA98 /* [CP] Check Pods Manifest.lock */,
 				CEB7944B21E65DA90067C1AF /* Sources */,
 				CEB7944C21E65DA90067C1AF /* Frameworks */,
 				CEB7944D21E65DA90067C1AF /* Resources */,
@@ -167,6 +231,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CEB7946921E65DA90067C1AF /* Build configuration list for PBXNativeTarget "GasAppUITests" */;
 			buildPhases = (
+				321BB651D83C1909F5A24D5B /* [CP] Check Pods Manifest.lock */,
 				CEB7945621E65DA90067C1AF /* Sources */,
 				CEB7945721E65DA90067C1AF /* Frameworks */,
 				CEB7945821E65DA90067C1AF /* Resources */,
@@ -229,7 +294,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE799F1921EA259F0010F67C /* images-2.png in Resources */,
 				CEB7944921E65DA80067C1AF /* LaunchScreen.storyboard in Resources */,
+				CE799F1821EA259F0010F67C /* images.png in Resources */,
+				CE799F1721EA259F0010F67C /* images-3.png in Resources */,
 				CEB7944621E65DA80067C1AF /* Assets.xcassets in Resources */,
 				CEB7944421E65DA80067C1AF /* Main.storyboard in Resources */,
 			);
@@ -251,13 +319,110 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		20853DDCCCD059E394D3BA98 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GasAppTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		321BB651D83C1909F5A24D5B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GasAppUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDC605A22E45160C83915EE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-GasApp/Pods-GasApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GasApp/Pods-GasApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F279A9945996F852876DF501 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GasApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CEB7943721E65DA80067C1AF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEB7947121E7A9F60067C1AF /* OrderGasViewController.swift in Sources */,
 				CEB7944121E65DA80067C1AF /* ViewController.swift in Sources */,
+				CE799F1B21EA26550010F67C /* ViewControllerTableViewCell.swift in Sources */,
 				CEB7943F21E65DA80067C1AF /* AppDelegate.swift in Sources */,
+				CEB7946D21E6679E0067C1AF /* SignInViewController.swift in Sources */,
+				CEB7946F21E672270067C1AF /* RegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +593,7 @@
 		};
 		CEB7946421E65DA90067C1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AA36D05E828881BD9A58815 /* Pods-GasApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -446,6 +612,7 @@
 		};
 		CEB7946521E65DA90067C1AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B75E370DDC935765B030E9 /* Pods-GasApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -464,6 +631,7 @@
 		};
 		CEB7946721E65DA90067C1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A130F76F1A590D6557A7CF /* Pods-GasAppTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -485,6 +653,7 @@
 		};
 		CEB7946821E65DA90067C1AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15F1D67AA01291CFAA7EB713 /* Pods-GasAppTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,6 +675,7 @@
 		};
 		CEB7946A21E65DA90067C1AF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6F3B393421FE6E28C84F131 /* Pods-GasAppUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -526,6 +696,7 @@
 		};
 		CEB7946B21E65DA90067C1AF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC36995B2315F5D3D4F0AEA9 /* Pods-GasAppUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
