@@ -24,6 +24,10 @@
 		CEB7946D21E6679E0067C1AF /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7946C21E6679E0067C1AF /* SignInViewController.swift */; };
 		CEB7946F21E672270067C1AF /* RegisterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7946E21E672270067C1AF /* RegisterViewController.swift */; };
 		CEB7947121E7A9F60067C1AF /* OrderGasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEB7947021E7A9F60067C1AF /* OrderGasViewController.swift */; };
+		CEED9EBA21F73B29005BF4B0 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED9EB921F73B29005BF4B0 /* File.swift */; };
+		CEED9EBE21F86625005BF4B0 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED9EBD21F86625005BF4B0 /* TableViewController.swift */; };
+		CEED9EC221FF032E005BF4B0 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED9EC121FF032E005BF4B0 /* DetailsViewController.swift */; };
+		CEED9EC421FF12F9005BF4B0 /* MakeOrderTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEED9EC321FF12F9005BF4B0 /* MakeOrderTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +75,10 @@
 		CEB7946C21E6679E0067C1AF /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		CEB7946E21E672270067C1AF /* RegisterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterViewController.swift; sourceTree = "<group>"; };
 		CEB7947021E7A9F60067C1AF /* OrderGasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderGasViewController.swift; sourceTree = "<group>"; };
+		CEED9EB921F73B29005BF4B0 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		CEED9EBD21F86625005BF4B0 /* TableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		CEED9EC121FF032E005BF4B0 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		CEED9EC321FF12F9005BF4B0 /* MakeOrderTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeOrderTableViewController.swift; sourceTree = "<group>"; };
 		DCA71A61ADD2DF90E28EE647 /* Pods_GasAppUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GasAppUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6F3B393421FE6E28C84F131 /* Pods-GasAppUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GasAppUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GasAppUITests/Pods-GasAppUITests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -156,14 +164,18 @@
 				CEB7947021E7A9F60067C1AF /* OrderGasViewController.swift */,
 				CEB7943E21E65DA80067C1AF /* AppDelegate.swift */,
 				CEB7944021E65DA80067C1AF /* ViewController.swift */,
-				CE799F1A21EA26550010F67C /* ViewControllerTableViewCell.swift */,
+				CEED9EC121FF032E005BF4B0 /* DetailsViewController.swift */,
 				CEB7944221E65DA80067C1AF /* Main.storyboard */,
 				CEB7944521E65DA80067C1AF /* Assets.xcassets */,
 				CEB7944721E65DA80067C1AF /* LaunchScreen.storyboard */,
 				CE799F1621EA259F0010F67C /* images-2.png */,
 				CE799F1421EA259E0010F67C /* images-3.png */,
 				CE799F1521EA259E0010F67C /* images.png */,
+				CE799F1A21EA26550010F67C /* ViewControllerTableViewCell.swift */,
 				CEB7944A21E65DA90067C1AF /* Info.plist */,
+				CEED9EB921F73B29005BF4B0 /* File.swift */,
+				CEED9EBD21F86625005BF4B0 /* TableViewController.swift */,
+				CEED9EC321FF12F9005BF4B0 /* MakeOrderTableViewController.swift */,
 			);
 			path = GasApp;
 			sourceTree = "<group>";
@@ -325,15 +337,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GasAppTests-checkManifestLockResult.txt",
 			);
@@ -347,15 +355,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GasAppUITests-checkManifestLockResult.txt",
 			);
@@ -369,16 +373,12 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-GasApp/Pods-GasApp-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
@@ -393,15 +393,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-GasApp-checkManifestLockResult.txt",
 			);
@@ -419,7 +415,11 @@
 			files = (
 				CEB7947121E7A9F60067C1AF /* OrderGasViewController.swift in Sources */,
 				CEB7944121E65DA80067C1AF /* ViewController.swift in Sources */,
+				CEED9EC221FF032E005BF4B0 /* DetailsViewController.swift in Sources */,
+				CEED9EBA21F73B29005BF4B0 /* File.swift in Sources */,
+				CEED9EBE21F86625005BF4B0 /* TableViewController.swift in Sources */,
 				CE799F1B21EA26550010F67C /* ViewControllerTableViewCell.swift in Sources */,
+				CEED9EC421FF12F9005BF4B0 /* MakeOrderTableViewController.swift in Sources */,
 				CEB7943F21E65DA80067C1AF /* AppDelegate.swift in Sources */,
 				CEB7946D21E6679E0067C1AF /* SignInViewController.swift in Sources */,
 				CEB7946F21E672270067C1AF /* RegisterViewController.swift in Sources */,

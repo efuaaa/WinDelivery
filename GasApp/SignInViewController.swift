@@ -37,20 +37,18 @@ class SignInViewController: UIViewController {
                 
                if apiResponseData["success"].stringValue == "true"
                {
-//                    let alertWarning = UIAlertController(title: "Message", message: "whooops", preferredStyle: .alert)
-                    let alertWarning = UIAlertController(title: "Message", message: "\(apiResponseData["data"]["user"]["name"])", preferredStyle: .alert)
+             
+                let storyboard:UIStoryboard = UIStoryboard.init(name: "Main", bundle: nil)
                 
-                    alertWarning.addAction(UIAlertAction(title: "Cancel", style: UIAlertActionStyle.cancel)
-                    {
-                        UIAlertAction in
-                        alertWarning.dismiss(animated: true, completion: nil)
-                    })
+                let View = (storyboard.instantiateViewController(withIdentifier: "goHome") as? ViewController)!
                 
-                    self.present(alertWarning,animated: true,completion: nil)
+                
+                self.present(View, animated: true, completion: nil)
                 
                 
                 
-                    //print("login successful")
+                
+                
                }
                else {
                     print("condition is false" )
@@ -67,13 +65,7 @@ class SignInViewController: UIViewController {
                     return
                 }
 
-//
-//                let photoColors = JSON(value)["status"][0]["info"]["image_colors"].array?.map { json in
-//                    PhotoColor(red: json["r"].intValue,
-//                               green: json["g"].intValue,
-//                               blue: json["b"].intValue,
-//                               colorName: json["closest_palette_color"].stringValue)
-//                }
+
                
         }
 

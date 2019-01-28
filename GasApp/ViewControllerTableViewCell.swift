@@ -21,7 +21,9 @@ class ViewControllerTableViewCell: UITableViewCell {
     @IBOutlet weak var date: UILabel!
     
     
-
+    @IBOutlet weak var service_name: UILabel!
+    
+    @IBOutlet weak var total: UILabel!
     
     override func awakeFromNib() {
         super.awakeFromNib()
